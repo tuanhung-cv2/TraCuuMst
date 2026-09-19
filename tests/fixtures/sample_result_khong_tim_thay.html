@@ -1,0 +1,15 @@
+<!--
+Ghi chú: đây là bản rút gọn phần thân form, mô phỏng phản hồi thật của trang khi
+KHÔNG có bảng kết quả (áp dụng cho cả 2 trường hợp: "không tìm thấy dữ liệu" và
+"nhập sai mã CAPTCHA" — trang trả về y hệt form rỗng, không có thông báo lỗi
+văn bản để phân biệt hai trường hợp này, xem docs/tai-lieu-thiet-ke-ky-thuat.md mục 8/14).
+-->
+<form action="" method="post" name="myform">
+        <input type="hidden" name="cm" value="cm">
+        <table class="search_form" width="100%" style="border-top: none;">
+                <tr>
+                        <td align="right">Mã số thuế<span style="color: red;">*</span></td>
+                        <td><input type="text" name="mst" value="999999999999"></td>
+                </tr>
+        </table>
+</form>

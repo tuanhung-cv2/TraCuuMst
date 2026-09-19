@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+tra_cuu.log
+*.log
+output/*.xlsx
+!output/.gitkeep
+build/
+dist/
+*.spec
+
+# Chứa ít nhất 1 CCCD đã xác nhận là dữ liệu thật (trả về tên người thật khi test) -
+# không commit lên GitHub public. Xem docs/huong-dan-commit-code.md mục 3.
+input/*.xlsx
